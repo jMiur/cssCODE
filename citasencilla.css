@@ -1,0 +1,4 @@
+blockquote.purocss {background-color: transparent;border: none;box-shadow: none;color: #888;font-family: Georgia,serif;font-size: 18px;font-style: italic;line-height: 1.3;margin: 20px auto;padding: 0.25em 40px;position: relative;width: 500px;}
+blockquote.purocss:before {color: #CCC;content: "\201C";display: block;font-size: 80px;left: -5px;position: absolute;top: -15px;}
+blockquote.purocss cite {color: #CCC;display: block;font-size: 18px;margin-top: 15px;text-align: right;}
+blockquote.purocss cite:before {content: "\2014 \2009";}
