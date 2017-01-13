@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>FILTROS CON CSS DEMO </title>
+<style>
+#filterdemo {
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+#filterdemo img {
+	filter: grayscale(100%);
+	margin: 0 auto;
+	transition: filter 1s ease 0s;
+}
+#filterdemo img:hover {
+	filter: grayscale(0%);
+}
+#filterdemo img + span {
+	filter: blur(20px);
+	font-size: 48px;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	top: 14px;
+	width: 100%;
+	transition: filter 1s ease 0s;
+}
+#filterdemo img:hover + span {
+	filter: blur(0);
+}
+</style>
+</head>
+<body>
+<div id="filterdemo">
+	<img src="http://i.imgur.com/S33q8fz.jpg">
+	<span>descansemos un poco</span>
+</div>
+</body>
+</html>
